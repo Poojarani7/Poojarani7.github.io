@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pooja Rani Maloth - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Menu Bar -->
+    <header>
+        <div class="menu-bar">
+            <h1>Pooja Rani</h1>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#stack">Technologies</a></li>
+                <li><a href="#studies">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Profile Picture -->
+    <div class="profile-picture-container">
+        <img style="border-radius: 50;"   src="poojapic.jpeg" alt="Profile Picture of Pooja Rani Maloth" class="profile-picture">
+    </div>
+
+    <main class="content">
+        <section id="home" class="home-section">
+            <div class="intro">
+                <h1>Pooja Rani Maloth</h1>
+                <h2>Business Analyst & Product Management Enthusiast</h2>
+                <p>Experienced professional with 3 years as a Business Analyst, now passionately transitioning into Product Management. Currently pursuing my M.Tech in Product Design and Management. </p>
+            </div>
+        </section>
+
+        <section id="about-me" class="about-section">
+            <h3>About Me</h3>
+            <p>A passionate Business Analyst with 3 years of experience in driving organizational growth by achieving targeted goals. Proven expertise in gathering business requirements, conducting detailed data analysis, designing effective solutions, and bridging communication between technical and non-technical stakeholders. I am committed to continuous improvement and delivering impactful results. Now, as an aspiring Product Manager, I am eager to apply my analytical skills, customer-centric mindset, and strategic thinking to develop innovative solutions and create value in a dynamic professional setting.</p>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h3>Experience</h3>
+          
+            <div class="card">
+                <h5>Business Analyst at Foundit Pvt. Ltd. (Formerly Monster India)</h5>
+                <p> From July 2022 to July 2023</p>
+                <p>Worked on building the assessment platform Skillyst. Delivered comprehensive business requirement documents and collaborated closely with product teams to ensure alignment. Led data analysis efforts and market research, defined the business roadmap, managed key stakeholders, drove metrics and created SOPs for efficient operations. </p>
+            </div>
+            <div class="card">
+                <h5>Management Trainee Ceipal Corp</h5>
+                <p>From August 2021 to July 2022<p>
+                <p>Expertly onboarded new clients, delivering product training to ensure smooth integration & usage. </p>
+            </div>
+           
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h3>Projects</h3>
+
+            <div class="card">
+                <h5>Research Associate at Dr. MCR HRD, Telangana Gov</h5>
+                <p>From Aug 2020 - Jan 2021</p>
+                <p>Conducted a comprehensive preliminary study, analyzing Telangana's suitability for start-up growth through data analysis.</p>
+            </div>
+            <div class="card">
+                <h5>Research Associate at Idea to Startup Labs, ISB </h5>
+                <p>From Aug 2020 - Jan 2021</p>
+                <p>Conducted social & behavioral research, utilizing scientific methodologies to analyze the progress of startups.</p>
+            </div>
+
+        </section>
+
+        <section id="stack" class="stack-section">
+            <h3>Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>Requirement Gathering</li>
+                <li>Data Analysis</li>
+                <li>SQL</li>
+                <li>HTML & CSS</li>
+                <li>Ms Excel</li>
+                <li>Mixpanel</li>
+                <li>Jira</li>
+                <li>Solution Design</li>
+                <li>Risk Assessment</li>
+                <li>Stakeholder Management</li>
+                <li>Quality Assurance</li>
+            
+            </ul>
+        </section>
+
+        <section id="studies" class="studies-section">
+            <h3>Education</h3>
+            <div class="card">
+                <h5>M.Tech - Product Design and Management</h5>
+                <p>International Institute of Information Technology, Hyderabad (2024 - 2026)</p>
+            </div>
+            <div class="card">
+                <h5>Integrated Masters - Economics</h5>
+                <p>University of Hyderabad (2016 - 2021)</p>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h3>Contact Me</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/maloth-pooja/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/poojarani7" target="_blank">GitHub</a></li>
+                <li><a href="mailto:poojaranimaloth@gmail.com" target="_blank">Email</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Maloth Pooja Rani © 2024</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
